@@ -3327,3 +3327,49 @@ input, select, textarea {
 			}
 
 		}
+
+		.tiles article > .image::before,
+.tiles article > .image::after {
+  display: none;
+}
+
+.reflection-photo {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 1.5em auto;
+  border-radius: 4px;
+}
+
+ul.actions.home-button {
+  justify-content: center;
+  width: 100%;
+  margin-left: 0;
+}
+
+ul.actions.home-button li {
+  padding-left: 0;
+}
+
+#menu details summary {
+  display: block;
+  padding: 1em 0;
+  line-height: 1.5;
+  cursor: pointer;
+  list-style: none;
+}
+
+#menu details summary::-webkit-details-marker {
+  display: none;
+}
+
+#menu details ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+#menu > .inner > ul > li details ul li a {
+  padding: 0.5em 0;
+}
